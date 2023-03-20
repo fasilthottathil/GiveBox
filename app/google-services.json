@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "512567378537",
+    "project_id": "givebox-a3f02",
+    "storage_bucket": "givebox-a3f02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512567378537:android:a38d248b11acde482698f8",
+        "android_client_info": {
+          "package_name": "com.givebox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512567378537-enlvrfb8ra2sdg1maoo5mgd10kh67cql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.givebox",
+            "certificate_hash": "8d383230f4363f8c9cd42fedadf75497d675a422"
+          }
+        },
+        {
+          "client_id": "512567378537-11jsv9j22aard01el4rqggkln64mt2fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf60I0nC7d8zM11o25kjNSOfzTdPIH-7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512567378537-11jsv9j22aard01el4rqggkln64mt2fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

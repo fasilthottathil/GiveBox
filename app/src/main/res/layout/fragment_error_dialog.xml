@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="50sp"
+    android:background="@drawable/error_shape"
+    android:gravity="center_horizontal"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:padding="12sp"
+    tools:context=".ui.custom.ErrorDialogFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtErrorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/error"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:text="@string/error_description"
+        android:textColor="@color/black" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="4dp"
+        android:background="?actionBarItemBackground"
+        android:padding="4dp"
+        android:text="@string/close"
+        android:textColor="@color/secondary"
+        android:textSize="12sp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
